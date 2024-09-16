@@ -20,6 +20,9 @@ jobs:
           flutter-version: "3.24.2"
           channel: stable
 
+      - name: Check Flutter doctor
+        run: flutter doctor
+
       - name: Install dependencies
         run: flutter pub get
 
